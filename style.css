@@ -1,0 +1,78 @@
+/* Normalize */
+body {
+  margin: 0;
+  font-family: "Arial";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: block;
+}
+
+/* Styles related to class */
+.page__container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ff001e;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-container {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.name {
+  font-size: 32px;
+}
+
+.player-icon {
+  font-size: 50px;
+  padding-bottom: 25px;
+}
+
+/* Styles related to ids */
+#result-area {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  width: 225px;
+  margin: 0 50px;
+}
+
+#play-btn {
+  font-size: 25px;
+  margin-top: 100px;
+  padding: 15px 50px;
+  background: white;
+  color: #ff001e;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#play-btn:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
